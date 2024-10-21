@@ -1,0 +1,176 @@
+#gate {
+  cursor: pointer;
+  margin-bottom: 100px;
+  width: 83px;
+  height: 46px;
+}
+
+.img_cloth {
+  width: 200px;
+  height: 300px;
+  opacity: 1;
+  cursor: pointer;
+}
+
+#capture_cody{
+  display: inline-block;
+  background-color: white;
+  width: 610px;
+  height: 400px;
+  border-radius: 5px;
+  box-shadow: rgb(0 0 0 / 20%) 0px 2px 30px -2px;
+}
+
+#list{
+  background: url("../image/shoes.png");
+  background-size: cover;
+  width: 610px;
+  height: 400px;
+  border-radius: 5px;
+  box-shadow: rgb(0 0 0 / 20%) 0px 2px 30px -2px;
+}
+.closet_inner {
+  width: 1100px;
+  margin: 0 auto;
+}
+.closet_subinner {
+  width: 1300px;
+  margin: 0 auto;
+}
+
+/*info*/
+.infoimg{
+ background-image: url(../image/Andersson.png);
+ background-size: cover;
+ padding: 0;
+}
+.infosize{
+  height: 500px;
+}
+#mycustom{
+  font-family:'nike';
+  font-size: 7rem;
+  font-weight: bold;
+  color: #000;
+}
+#mycustom2{
+  font-family:'nike';
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: #000;
+}
+#mycustom3{
+  font-family:'nike';
+  font-size: 5rem;
+  font-weight: bold;
+}
+/*custom*/
+.customimgsize{
+  padding-bottom: 20px;
+  height: 80px;
+  display: inline;
+}
+.textbtn{
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 160px;
+  height: 50px;
+  border-radius: 5px;
+  box-shadow: rgb(0 0 0 / 20%) 0px 2px 10px -2px;
+  background-color: white;
+  margin-bottom: 10px;
+  padding-left: 10px;
+}
+.textbtn2{
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 250px;
+  height: 50px;
+  border-radius: 5px;
+  box-shadow: rgb(0 0 0 / 20%) 0px 2px 10px -2px;
+  background-color: white;
+  margin-bottom: 10px;
+  padding-left: 10px;
+}
+.inputtxt{
+  border: none;
+  width: 100px;
+  font-family: 'nanum';
+  font-size: 16px;
+}
+.inputtxt:focus{
+  border: white;
+  outline: none;
+}
+.inputtxt:active{
+  border: none;
+  outline: none;
+}
+.inlinest{
+  display: inline-block;
+  margin-right: 10px;
+}
+.btntxt{
+  display: inline-block;
+  padding: 10px 20px;
+  color: #fff;
+  vertical-align: middle;
+  background-color: #999999;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  box-shadow: rgb(0 0 0 / 20%) 0px 2px 10px -2px;
+  height: 40px;
+  margin: 0;
+}
+.btntxt:hover{
+  background-color: #888888;
+}
+.btntxt:focus{
+  outline: none;
+}
+
+
+.filebox{
+  padding-bottom: 10px;
+  display: inline-block;
+}
+
+.filebox .upload-name {
+  display: inline;
+  width: 300px;
+  height: 40px;
+  padding: 0 10px;
+  vertical-align: middle;
+  align-items: center;
+  border: none;
+  color: #999999;
+  border-radius: 5px;
+  box-shadow: rgb(0 0 0 / 20%) 0px 2px 10px -2px;
+  background-color: white;
+}
+.filebox label {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #fff;
+  vertical-align: middle;
+  background-color: #999999;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: rgb(0 0 0 / 20%) 0px 2px 10px -2px;
+  height: 40px;
+  margin: 0;
+}
+.filebox label:hover{
+  background-color: #888888;
+}
+.filebox input[type="file"] {
+  position: absolute;
+  width: 0;
+  height: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+}

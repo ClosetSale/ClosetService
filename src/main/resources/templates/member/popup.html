@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/Signinpop.css">
+</head>
+<body>
+<div class="sign-up" style="background-color: white; display: inline-block;">
+    <div class="logo" style="text-align: center">
+        <img src="/image/Closet_logo1.png" style="height: 80px">
+    </div>
+    <form class="SiginIn" action="/join" method="post" style="text-align: center; height: 100%;" th:object="${member}">
+
+        <div th:if="${#fields.hasGlobalErrors()}">
+            <p class="field-error" th:each="err : ${#fields.globalErrors()}"
+               th:text="${err}">전체 오류 메시지</p>
+        </div>
+        <span style="margin-right: 75%;">ID</span><br>
+        <input type="text" class="inputtext" th:field="*{loginId}" placeholder="ID"><br><br>
+
+        <span style="margin-right: 75%;">PW</span><br>
+        <input type="password" class="inputtext" id="infoPW" name="password" placeholder="Input PASSWORD"><br><br>
+
+        <span style="margin-right: 75%;">NICKNAME</span><br>
+        <input type="text" class="inputtext" th:field="*{nickname}" placeholder="NICKNAME"><br><br>
+
+
+        <input type="submit" class="btn btn--white sign" value="Register"
+               style="margin-top: 20px; margin-bottom: 20px;">
+    </form>
+</div>
+</body>
+</html>

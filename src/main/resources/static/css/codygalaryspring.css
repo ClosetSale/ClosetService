@@ -1,0 +1,154 @@
+.main-menu{
+  position: absolute;
+  top:90px;
+  right: 0px;
+  z-index: 1;
+  display: flex;
+}
+.main-menu .item .item__name{
+  padding: 10px 20px 34px ;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+}
+.main-menu li{
+  list-style: none;
+}
+
+
+
+.bg-1, .bg-2 {
+  background-color: #f6f6f6;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.galaryTopic{
+  padding-top: 40px;
+  padding-bottom: 40px ;
+}
+.clothinfo{
+  font-weight: bold;
+}
+.navbar {
+  padding-bottom: 12px;
+}
+.member{
+  border: 1px solid #d2d2d2;
+  border-radius: 7px;
+
+}
+
+.row {
+  margin-top: 30px;
+}
+.pd-zero{
+  padding: 0px;
+}
+.main_inner h3{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #222;
+  padding: 20px;
+  border-radius: 3px;
+  margin-bottom: -5px;
+}
+	#c1, .c2{
+    width:100px;
+    height:100px;
+    border-radius:100%;
+    border:1px solid #d2d2d2;
+  }
+	#com1, .com2{
+    width:100px;
+    height:100px;
+    border-radius:100%;
+    border:1px solid #d2d2d2;
+  }
+  #color3, .colordiv3{
+    width:100px;
+    height:100px;
+    border-radius:100%;
+    border:1px solid #d2d2d2;
+  }
+  #color4, .colordiv4{
+    width:100px;
+    height:100px;
+    border-radius:100%;
+    border:1px solid #d2d2d2;
+  }
+  #color5, .colordiv5{
+    width:100px;
+    height:100px;
+    border-radius:100%;
+    border:1px solid #d2d2d2;
+  }
+  #color6, .colordiv6{
+    width:100px;
+    height:100px;
+    border-radius:100%;
+    border:1px solid #d2d2d2;
+  }
+  #color7, .colordiv7{
+    width:100px;
+    height:100px;
+    border-radius:100%;
+    border:1px solid #d2d2d2;
+  }
+  #color8, .colordiv8{
+    width:100px;
+    height:100px;
+    border-radius:100%;
+    border:1px solid #d2d2d2;
+  }
+  #color9, .colordiv9{
+    width:100px;
+    height:100px;
+    border-radius:100%;
+    border:1px solid #d2d2d2;
+  }
+  #color10, .colordiv10{
+    width:100px;
+    height:100px;
+    border-radius:100%;
+    border:1px solid #d2d2d2;
+  }
+  #color11, .colordiv11{
+    width:100px;
+    height:100px;
+    border-radius:100%;
+    border:1px solid #d2d2d2;
+  }
+  #color12, .colordiv12{
+    width:100px;
+    height:100px;
+    border-radius:100%;
+    border:1px solid #d2d2d2;
+  }
+  #color13, .colordiv13{
+    width:100px;
+    height:100px;
+    border-radius:100%;
+    border:1px solid #d2d2d2;
+  }
+  #color14, .colordiv14{
+    width:100px;
+    height:100px;
+    border-radius:100%;
+    border:1px solid #d2d2d2;
+  }
+  #color15, .colordiv15{
+    width:100px;
+    height:100px;
+    border-radius:100%;
+    border:1px solid #d2d2d2;
+  }
+  #color16, .colordiv16{
+    width:100px;
+    height:100px;
+    border-radius:100%;
+    border:1px solid #d2d2d2;
+  }
+
+  .clothinfo{
+    font-family: 'nike';
+  }

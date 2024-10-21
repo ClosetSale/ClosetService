@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script defer src="/js/FindIDpopup.js"></script>
+  <link rel="stylesheet" href="/css/findID.css">
+</head>
+
+<body>
+  <div class="find-id" style="background-color: white; display: inline-block;">
+    <div class="logo" style="text-align: center">
+      <img src="/image/Closet_logo1.png" style="height : 80px">
+    </div>
+    <h2>FIND ID</h2>
+    <form class="findID" style="text-align: center; height : 100%" th:object="${member}" action="/forgot/id" method="post">
+      <div th:if="${#fields.hasGlobalErrors()}">
+        <p class="field-error" th:each="err : ${#fields.globalErrors()}"
+           th:text="${err}">전체 오류 메시지</p>
+      </div>
+      <br>
+      <input type="text" id="infoNick" placeholder="Input NICKNAME" th:field="*{nickname}">
+      <input type="submit" class="btn btn--white btn"  value="Check" style="cursor: pointer;">
+    </form>
+    <br>
+
+  </div>
+</body>
+
+</html>
